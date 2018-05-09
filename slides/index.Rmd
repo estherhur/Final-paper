@@ -1,0 +1,53 @@
+---
+title: "online_presentation"
+author: "Esther Hur"
+date: "April 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Briefly summarize the main points/research questions
+
+The present study investigates the extent of incomplete knowledge of DOM in Spanish heritage speakers. Experiment 1 examined whether omission of a affected grammatical competence, as measured bythe linguistic behavior of 67 heritage speakers and 22 monolingual speakers in an oral production task and in a written acceptability judgment task. Experiment 2 followed up on the results of the acceptability judgment task with 13 monolingual speakers and 69 heritage speakers, and examined whether problems with DOM generalize to other instances of structural and inherent dative case, including ditransitive verbs and gustar-type psychological verbs. Results of the two experiments
+confirmed that heritage speakers’ recognition and production of DOM is probabilistic, even for speakers with advanced proficiency in Spanish. This suggests that many heritage speakers’ grammars may not actually instantiate inherent case. The authors argue that language loss under reduced input conditions in childhood leads to simplification of the grammar by letting go of the non-core options, while retaining the core functional structure.
+
+#Scrutinize their methods
+
+Two basic questions that motivated Experiment 1 were:
+1) Do HS mark animate and specific direct obejcts with 'a'in production like monolingual native speakers do?
+2) Do they know that the DOM marked with 'a' is obligatory with animate and specific direct objects?
+
+# What did they do?
+A total of 67 HS and 22 Monolingual Controls (MC) completed a linguistic background questionnaire and a short written Spanish proficiency test. 
+The first statistical analysis was done on smaple size and mean scores in the Spanish proficiency test. The authors provided the mean and standard deviations of the scores. 
+
+In the first task, Acceptability Judgement Task (AJT) included a total of 90 sentences (46 grammatical and 45 ungrammatical), divided into 18 sentence types with five tokens per type. The main goal was to test the knowledge of object clitic in general, including position of clitics with respects to finiteness of the verb, clitic doubling , cliting climbing and clitic left dislocations. All individuals had to rate each sentence the scale, assigning the following values: 1 = completelyunacceptable, 2 = acceptable in rare contexts, 3 = I can’t tell, 4 = acceptable in many contexts, 5 = perfectly acceptable.
+
+#How did they do it? Why did they do it?
+First, numerical scores for DOM and double object constructions were submitted to one-way ANOVAs.
+All responses rated 3 were eliminated from the analysis since participants chose this rating when they had no intuition on a given sentece. Thus all statistical analyses were based on individual rating of 1 and 2 ungrammatical and 4 and 5 for grammatical sentences. 
+
+The HS group was split into three groups based on the scores of the proficiency test. 14 low
+proficiency (scores range 16–29), 25 intermediate (range 30–39) and 30 advanced (range 40–50). Because group sizes were unequal, when the data distribution violated homogeneity of variance, they used an alternative version of the F-ratios (Brown-Forsythe F), and the Games-Howell test for planned contrasts to correct degrees of freedom. Additionally, they ran the nonparametric Kruskal-
+Wallis test for the group comparisons and the Mann-Whitney test for the post-hoc analyses. Since the patterns of significance were the same, they opted for ANOVAs with corrections throughout because parametric tests are believed to have more power than nonparametric tests.
+(The same procedure was applied in Experiment 2.)10.
+
+The first graph in Experiment 1 shows the mean acceptability rating for DOM sentences with unmarked animate direct objects (ungrammatical). The means and standard deviations are provided in the Appendix section. 
+
+# Assessment of appropiateness/novelty/Assessment of presentation of results
+There are two limits of Figure 1: the graph only is able to present the mean of acceptability rating for each group, however it does not provide a visual interpretation of the standard deviation. We know that the appropiate way to interpret this is by creating a boxplot where it will enable to visualized not only the mean, but also the sd of each group. In addition, the authors mention that the mean and sd are provided in "Table A in Appendix A", however there is no section in the article were it shows the Appendix section. 
+
+A one-way ANOVA was run that showed a main effect for group (F(3,85) = 27.888,
+p<.0001). In addition, planned comparisons revealed that the native speaker group rated these sentences ungrammatical, differing significantly from the three heritage speaker groups (t(70.307) = 14.901, p<.0001, one-tailed), who accepted unmarked animate and specific direct objects. One limit of the one-way ANOVA test is that by considering that these are results of an AJT, the results cannot be considered as categorical. If the results are considered as numerical, a likert scale of 1-5 can provide a more extended set of data. However, by forcing the likert scale to a categorical factor, the study has the risk of loosing important data from the participants. 
+
+The second graph presented the mean acceptability rating for double object constructions showing that many of the HS who accepted animate, specific direct objects without the DOM also accepted ungrammatical double object construction in Spanish, specially in the speakers of low proficiency group. However, this interpretation is unclear because two separate graphs does not prove that the participants who accepted the ungrammatical DO construction are the same ones who accepted the double object constructions. In order to proof this correlation, the authors performed an individual subject´s analysis by counting how many participants accepted as grammatical more than two sentences out of five (40%), whith acceptability rating of 4 or 5. They devided the subjects according to three patterns: those who accepted both ∗DOM and ∗DOC, those who accepted only ∗DOM, and those who rejected both ∗DOM and ∗DOC . The authors report a developmental pattern between the HS data where the advanced HS reject more the ∗DOM and ∗DOC , the int. HS Accept ∗DOM and reject ∗DOC and low HS Accept ∗DOM and ∗DOC. For Adv. and Int. HS it seems that marking of DOM morphologically with inherent case is problemantic. 
+
+As for the oral narrative task (OPT) there were a total of 20 native speakers who produced a total of 365 verbs 59 HS who produced 861 verbs. All raw counts were converted to percentages and submitted to statistical analysis. They provided the show counts, mean percentage error rants and sd for the native and hs split into the proficiency groups. An ANOVA was run to show a difference in error rates with animate direct objects based in group (F(3,75) = 12.205, p<.0001). Planned comparisons indicated that HS group made a-omission errors (ranging from 10% to 50%)while native speakers did not (t(48.004) =−7.664, p<.0001, one-tailed).
+
+As to Experiment 2 was done in order to answer the question if the object marker 'a' was affected solely to DOM environments, or does this problem generalize to other instances of dative case marking including indirect objects and psych verbs. 13 Spanish native speakers and 69 Spanish HS participated in this study. The participants did an AJT with 75 sentences in total (40 grammatical and 35 ungrammatical). There were four sentence types: 1) DOM 2) indirect objects 3) gustar-type psycg verbs. 
+
+The numerical rating were submitted to a series of one-way ANOVA with planned comparisons to invetigate differences between the groups, and paired-samples t test to compare sentence types. Once again, they present a table visualizing the mean acceptability ratio on each type of sentences. As mentioned previously, the authors forced the data to a categorical factor ignoring the fact that an likert scale of 1-5 should be considered as a numerical factor. In addition, the categorical coding is limited since the rating of DOM and no DOM are coded equally to grammatical and ungrammatical 
+
