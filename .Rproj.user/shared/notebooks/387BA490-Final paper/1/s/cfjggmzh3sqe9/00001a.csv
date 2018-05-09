@@ -1,0 +1,5 @@
+"0","source(""../scripts/eptdata.R"")
+"
+"2","Error in anova(lm_null, lm_prof, lm_full, test = ""Chisq"") : 
+  object 'lm_null' not found
+"

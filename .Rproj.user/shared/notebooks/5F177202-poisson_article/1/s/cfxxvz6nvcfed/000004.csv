@@ -1,0 +1,21 @@
+"0","source(""../scripts/poisson_regression.R"")
+"
+"2","Parsed with column specification:
+cols(
+  temp = col_double(),
+  city = col_character(),
+  units = col_integer()
+)
+"
+"1","Observations: 400
+"
+"1","Variables: 4
+"
+"1","$ temp   <dbl> 32.00000, 32.39196, 32.78392, 33.17588, 33.56784, 33.95980, ...
+"
+"1","$ city   <chr> ""Tucson"", ""Tucson"", ""Tucson"", ""Tucson"", ""Tucson"", ""Tucson"", ...
+"
+"1","$ units  <int> 56, 57, 56, 68, 57, 56, 59, 60, 60, 55, 61, 57, 56, 72, 64, ...
+"
+"1","$ temp_c <dbl> -36.50000, -36.10804, -35.71608, -35.32412, -34.93216, -34.5...
+"

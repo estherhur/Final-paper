@@ -1,0 +1,5 @@
+"0","source(""../scripts/newdata_ept.R"")
+"
+"2","Error in setwd(""~/Dropbox/shared/experimento"") : 
+  cannot change working directory
+"
