@@ -2,20 +2,21 @@
 #rm(list = ls(all = TRUE))
 
 # Set working directory
-setwd("~/Desktop/Final paper")
+# setwd("~/Desktop/Final paper")
 
 #load package
+library(here)
 library(tidyverse)
 library(lme4)
 library(lmerTest)
 
 #load data
-ept_df1 <- read_csv("./data/ept_raw.csv") %>% 
+ept_df1 <- read_csv(here("data", "ept_raw.csv")) %>% 
   mutate(., groupCon = recode(group, co = 0.5, hs = -0.5), #porque 0.5?
          freqCon = recode(frequency, f = 0.5, u = -0.5))
 
-ept_df2 <- read_csv("./data/ept_additional_data.csv") %>% 
-  mutate(., groupCon = recode(group, co = 0.5, hs = -0.5), 
+ept_df2 <- read_csv(here("data", "ept_additional_data.csv")) %>% 
+    mutate(., groupCon = recode(group, co = 0.5, hs = -0.5),
          freqCon = recode(frequency, f = 0.5, u = -0.5))
 
 
@@ -51,7 +52,7 @@ unique(ept_df_temp$participant)
 
 
 # import dele data and join with df
-ept_df <- read_csv("./data/prof_df.csv") %>% 
+ept_df <- read_csv(here("data", "prof_df.csv")) %>% 
   left_join(ept_df_temp, ., by = 'participant')
 
 # the new frequency counts from the Davis corpus
